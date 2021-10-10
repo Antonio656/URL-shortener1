@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <script src="https://use.fontawesome.com/cf4709aede.js"></script>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com">
+  <link href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style/style.css">
+  <title>Frontend Mentor | Shortly URL shortening API Challenge</title>
+</head>
+
+<body>
+
+  <header>
+    <div class="container">
+      <nav>
+        <img src="/images/logo.svg" class="logo" alt="logo">
+
+        <div class="hamburger" onclick="myFunction(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div>
+
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="#" class="nav-link">Features</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Resources</a>
+          </li>
+          <hr>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Login</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link btn">Sign Up</a>
+          </li>
+        </ul>
+
+        <ul class="nav-ul">
+          <li class=""><a href="">Features</a></li>
+          <li class=""><a href="">Pricing</a></li>
+          <li class=""><a href="">Resources</a></li>
+          <li class="ul-login"><a href="">Login</a></li>
+          <li class="ul-login"><a href="">Sign Up</a></li>
+        </ul>
+
+        <div class="login">
+          <a href="#" class="login-a">Login</a>
+          <a href="#">
+            <div class="btn">Sign Up</div>
+          </a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="intro-section">
+      <div class="container intro">
+        <div class="intro-text">
+          <h1 class="u-mb-small">More than just <span>shorter links</span></h1>
+          <p class="u-mb-medium">Build your brand’s recognition and get detailed insights
+            on how your links are performing.</p>
+          <a href="#" class="btn-large btn">Get Started</a>
+        </div>
+        <div class="intro-img">
+          <img src="/images/illustration-working.svg" alt="working">
+        </div>
+      </div>
+
+    </section>
+
+    <section class="input-section">
+      <div class="container">
+        <div class="input-box u-mb-large">
+          <input type="text" id="shortenlink" placeholder="Shorten a link here...">
+          <button class="link-btn shorten">Shorten It!</button>
+        </div>
+        <div class="lists"></div>
+        <div class="result copy"></div>
+        <div class="about">
+          <h2 class="u-mb-small">Advanced Statistics</h2>
+          <p class="u-mb-medium">Track how your links are performing across the web with our
+            advanced statistics dashboard.</p>
+        </div>
+
+      </div>
+
+      <div class="feature-section">
+        <div class="feature">
+          <div class="feature-box box-1">
+            <div class="feature-img">
+              <img src="./images/icon-brand-recognition.svg" alt="recognition">
+            </div>
+            <h3>Brand Recognition</h3>
+            <p>Boost your brand recognition with each click. Generic links don’t
+              mean a thing. Branded links help instil confidence in your content.</p>
+          </div>
+
+          <div class="feature-box box-2">
+            <div class="feature-img">
+              <img src="./images/icon-detailed-records.svg" alt="records">
+            </div>
+            <h3>Detailed Records</h3>
+            <p>Gain insights into who is clicking your links. Knowing when and where
+              people engage with your content helps inform better decisions.</p>
+          </div>
+
+          <div class="feature-box box-3">
+            <div class="feature-img">
+              <img src="./images/icon-fully-customizable.svg" alt="customizable">
+            </div>
+            <h3>Fully Customizable</h3>
+            <p>Improve brand awareness and content discoverability through customizable
+              links, supercharging audience engagement.</p>
+          </div>
+        </div>
+      </div>
+
+    </section>
+  </main>
+
+  <section class="boost-section">
+    <div class="container boost">
+      <h2 class="-u-mb-medium">Boost your links today</h2>
+      <a href="" class="btn btn-large">Get Started</a>
+    </div>
+  </section>
+
+  <footer>
+    <div class="foot-container">
+      <div class="footer-logo">
+        <img src="https://tobi-davies.github.io/url-shortener-api/images/footer-logo.svg" alt="logo">
+      </div>
+      <div class="foot1">
+        <ul>
+          <li class="diff">Features</li>
+          <li>Link Shortening</li>
+          <li>Branded Links</li>
+          <li>Analytics</li>
+        </ul>
+      </div>
+
+      <div class="foot2">
+        <ul>
+          <li class="diff">Resources</li>
+          <li>Blog</li>
+          <li>Developers</li>
+          <li>Support</li>
+        </ul>
+      </div>
+
+      <div class="foot3">
+        <ul>
+          <li class="diff">Company</li>
+          <li>About</li>
+          <li>Our Team</li>
+          <li>Careers</li>
+          <li>Contact</li>
+        </ul>
+      </div>
+
+      <div class="icons">
+        <img src="./images/icon-facebook.svg" width="24" height="24" alt="facebook">
+        <img src="./images/icon-twitter.svg" width="24" height="24" alt="twitter">
+        <img src="./images/icon-pinterest.svg" width="24" height="24" alt="pinterest">
+        <img src="./images/icon-instagram.svg" width="24" height="24" alt="instagram">
+      </div>
+    </div>
+  </footer>
+  <script src="/app.js"></script>
+</body>
+
+</html>
